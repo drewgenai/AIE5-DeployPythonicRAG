@@ -26,7 +26,7 @@ Question:
 user_role_prompt = UserRolePrompt(user_prompt_template)
 
 class RetrievalAugmentedQAPipeline:
-    def __init__(self, llm: ChatOpenAI(), vector_db_retriever: VectorDatabase) -> None:
+    def __init__(self, llm: ChatOpenAI, vector_db_retriever: VectorDatabase) -> None:
         self.llm = llm
         self.vector_db_retriever = vector_db_retriever
 
