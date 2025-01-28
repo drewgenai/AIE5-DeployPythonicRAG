@@ -341,7 +341,10 @@ Upload a PDF file of the recent DeepSeek-R1 paper and ask the following question
 
 Does this application pass your vibe check? Are there any immediate pitfalls you're noticing?
 
-The first two questions provide reasonable responses to pass the vibe check. The third question provides a problem as it asks for a summary of the paper, but it must answer the question within the context of the paper. However, it can only look at the top 4 chunks (k=4) and that is not a large enough sample size to return a summary of the paper. The size would have to be larger to return a summary of the paper.
+The first two questions provide reasonable responses and pass my vibe check. The third question provides a problem as it asks for a summary of the paper, but it must answer the question within the context of the paper. However, it can only look at the top 4 chunks (k=4) and that is not a large enough sample size to return a summary of the paper. The size would have to be larger to return a summary of the paper.
+
+screenshot of app in action: ![demo](./images/appscreenshot.png)
+
 
 ## 🚧 CHALLENGE MODE 🚧
 
